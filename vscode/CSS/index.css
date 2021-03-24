@@ -1,0 +1,706 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FFFF;
+}
+
+.name {
+    width: 100%;
+    height: 160px;
+    background-color: #264653;
+}
+
+.name .img {
+    position: absolute;
+    top: 28%;
+    right: 81.4%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    transform: skewY(5deg);
+    overflow: hidden;
+}
+
+.name .img img {
+    width: 190px;
+    height: 190px;
+}
+
+.name .content {
+    width: 20%;
+    height: 60%;
+    position: absolute;
+    left: 15px;
+}
+
+.name .content .p-1 {
+    color: white;
+    font-family:  'Recursive', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}   
+
+.name .content .p-2 {
+    color: #06d6a0;
+    font-family:  'Recursive', sans-serif;
+    font-size: 18px; 
+}
+
+.name .background-photo {
+    width: 20%;
+    height: 240px;
+    position: relative;
+    top: 200px;
+    left: 25px;
+}
+
+.name .background-photo .p-3 {
+    color: #03071e;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    bottom: -149px;
+    left: 45px;
+
+}
+
+.name .background-photo .p-4 {
+    color: #03071e;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    bottom: -136px;
+    left: 80px;
+}
+
+.name .background-photo .p-5 {
+    color: #03071e;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    bottom: -120px;
+    left: 98px;
+}
+
+.name .contacto {
+    width: 20%;
+    height: 185px;
+    background-color: #e5e5e5;
+    position: relative;
+    top: 196px;
+    left: 25px;
+}
+
+.name .contacto .p-6 {
+    color: #03071e;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    bottom: -12px;
+    right: -8px;
+}
+
+.name .contacto .p-7 {
+    color: #03071e;
+    font-family: 'Karla', sans-serif;
+    position: relative;
+    bottom: -12px;
+    right: -55px;
+}
+
+.name .contacto .p-8 {
+    color: #03071e;
+    font-family: 'Karla', sans-serif;
+    position: relative;
+    bottom: -12px;
+    right: -55px;
+}
+
+.name .contacto .p-9 {
+    color: #03071e;
+    font-family: 'Karla', sans-serif;
+    position: relative;
+    bottom: -12px;
+    right: -55px;
+}
+
+.name .contacto .p-10 {
+    color: #03071e;
+    font-family: 'Karla', sans-serif;
+    position: relative;
+    bottom: -12px;
+    right: -55px;
+}
+
+.name .estado {
+    width: 100%;
+    height: 95px;
+    background-color: #e5e5e5;
+    position: relative;
+    top: 25px;
+    right: -1px;
+}
+
+.name .estado .p-11 {
+    color: #03071e;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    bottom: -10px;
+    right: -8px;
+}
+
+.name .estado .p-12 {
+    color: #03071e;
+    font-family: 'Karla', sans-serif;
+    position: relative;
+    bottom: -12px;
+    right: -55px;
+}
+
+.name .idiomas {
+    width: 100%;
+    height: 95px;
+    background-color: #e5e5e5;
+    position: relative;
+    top: 25px;
+    right: -1px;
+}
+
+.name .idiomas .p-13 {
+    color: #03071e;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    bottom: -12px;
+    right: -8px;
+}
+
+.name .idiomas .p-14 {
+    color: #03071e;
+    font-family: 'Karla', sans-serif;
+    position: relative;
+    bottom: -12px;
+    right: -55px;
+}
+
+.name .perfil-ocupacional {
+    width: 370%;
+    height: 200px;
+    background-color: #e5e5e5;
+    position: relative;
+    top: -650px;
+    right: -1000px;
+    left: 300px;
+}
+
+.name .perfil-ocupacional .p-15 {
+    color: #03071e;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    bottom: -12px;
+    right: -8px;
+}
+
+.name .perfil-profesional {
+    width: 362%;
+    height: 120px;
+    background-color: white;
+    position: relative;
+    top: -800px;
+    right: -1000px;
+    left: 310px;
+    border: grey 2px solid;
+}
+
+.name .perfil-profesional .p-16 {
+    color: #6b705c;
+    font-family: 'Noto Sans JP', sans-serif;
+    position: relative;
+    bottom: -2px;
+    right: -3px;
+    font-size: 80%
+    align="center"
+}
+
+.name .formacion-academica {
+    width: 370%;
+    height: 300px;
+    background-color: #e5e5e5;
+    position: relative;
+    top: -780px;
+    right: -1000px;
+    left: 300px;
+}
+
+.name .formacion-academica .p-17{
+    color: #03071e;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    bottom: -12px;
+    right: -8px;
+}
+
+.name .estudios .p-18 {
+    color: #a5a58d;
+    width: 360%;
+    height: 120px;
+    position: relative;
+    top: -1040px;
+    left: 310px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    text-indent: 15px;
+    bottom: 5cm;
+}
+
+.name .estudios .p-19 {
+    color: #03071e;
+    width: 360%;
+    height: 120px;
+    position: relative;
+    top: -1140px;
+    left: 310px;
+    font-family: 'Oswald', sans-serif;
+    text-indent: 40px;
+    bottom: 5cm;  
+}
+
+.name .estudios .p-20 {
+    color: #a5a58d;
+    width: 194%;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    top: -1248px;
+    right: 1000px;
+    left: 340px;
+    border: grey 2px solid;
+    text-indent: 15px;
+}
+
+.name .estudios .p-21 {
+    color: #a5a58d;
+    width: 360%;
+    height: 120px;
+    position: relative;
+    top: -1240px;
+    left: 310px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    text-indent: 15px;
+    bottom: 5cm;
+}
+
+.name .estudios .p-22 {
+    color: #03071e;
+    width: 360%;
+    height: 120px;
+    position: relative;
+    top: -1340px;
+    left: 310px;
+    font-family: 'Oswald', sans-serif;
+    text-indent: 40px;
+    bottom: 5cm;  
+}
+
+.name .estudios .p-23 {
+    color: #a5a58d;
+    width: 270%;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    top: -1448px;
+    right: 1000px;
+    left: 340px;
+    border: grey 2px solid;
+    text-indent: 15px;
+}
+
+.name .formacion-complementaria {
+    width: 370%;
+    height: 360px;
+    background-color: #e5e5e5;
+    position: relative;
+    top: -1410px;
+    right: -1000px;
+    left: 300px;
+}
+
+.name .formacion-complementaria .p-24{
+    color: #03071e;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    bottom: -12px;
+    right: -8px;
+}
+
+.name .estudios-complementarios .p-25 {
+    color: #a5a58d;
+    width: 360%;
+    height: 110px;
+    position: relative;
+    top: -1745px;
+    left: 310px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    text-indent: 15px;
+    bottom: 5cm;
+}
+
+.name .estudios-complementarios .p-26 {
+    color: #a5a58d;
+    width: 220%;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    top: -1839px;
+    right: 1000px;
+    left: 340px;
+    border: grey 2px solid;
+    text-indent: 15px;    
+}
+
+.name .estudios-complementarios .p-27 {
+    color: #a5a58d;
+    width: 360%;
+    height: 120px;
+    position: relative;
+    top: -1845px;
+    left: 310px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    text-indent: 15px;
+    bottom: 5cm;
+}
+
+.name .estudios-complementarios .p-28 {
+    color: #a5a58d;
+    width: 300%;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    top: -1945px;
+    right: 1000px;
+    left: 340px;
+    border: grey 2px solid;
+    text-indent: 15px; 
+}
+
+.name .estudios-complementarios .p-29 {
+    color: #a5a58d;
+    width: 360%;
+    height: 120px;
+    position: relative;
+    top: -1950px;
+    left: 310px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    text-indent: 15px;
+    bottom: 5cm;
+}
+
+.name .estudios-complementarios .p-30 {
+    color: #a5a58d;
+    width: 300%;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    top: -2053px;
+    right: 1000px;
+    left: 340px;
+    border: grey 2px solid;
+    text-indent: 15px; 
+}
+
+.name .estudios-complementarios .p-31 {
+    color: #a5a58d;
+    width: 360%;
+    height: 120px;
+    position: relative;
+    top: -2060px;
+    left: 310px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    text-indent: 15px;
+    bottom: 5cm;
+}
+
+.name .estudios-complementarios .p-32 {
+    color: #a5a58d;
+    width: 300%;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    top: -2160px;
+    right: 1000px;
+    left: 340px;
+    border: grey 2px solid;
+    text-indent: 15px; 
+}
+
+.name .estudios-complementarios .p-33 {
+    color: #a5a58d;
+    width: 300%;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    top: -2160px;
+    right: 1000px;
+    left: 340px;
+    border: grey 2px solid;
+    text-indent: 15px; 
+}
+
+
+.name .referencias-personales {
+    width: 370%;
+    height: 300px;
+    background-color: #e5e5e5;
+    position: relative;
+    top: -2150px;
+    right: -1000px;
+    left: 300px;
+}
+
+.name .referencias-personales .p-34 {
+    color: #03071e;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    bottom: -12px;
+    right: -8px;
+}
+
+.name .referencias-personales .p-34 {
+    color: #03071e;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    bottom: -12px;
+    right: -8px;
+}
+
+.name .referencias-personales .p-35 {
+    color: #a5a58d;
+    width: 35%;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    top: 20px;
+    right: 100px;
+    left: 42px;
+    border: grey 2px solid;
+    text-indent: 15px;
+}
+
+.name .referencias-personales .p-36 {
+    color: #a5a58d;
+    width: 35%;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    top: 20px;
+    right: 100px;
+    left: 42px;
+    border: grey 2px solid;
+    text-indent: 15px;
+}
+
+.name .referencias-personales .p-37 {
+    color: #a5a58d;
+    width: 35%;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    top: 20px;
+    right: 100px;
+    left: 42px;
+    border: grey 2px solid;
+    text-indent: 15px;
+}
+
+.name .referencias-personales .p-38 {
+    color: #a5a58d;
+    width: 35%;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    top: 20px;
+    right: 100px;
+    left: 42px;
+    border: grey 2px solid;
+    text-indent: 15px;   
+}
+
+.name .referencias-personales .p-39 {
+    color: #a5a58d;
+    width: 35%;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    top: 20px;
+    right: 100px;
+    left: 42px;
+    border: grey 2px solid;
+    text-indent: 15px;   
+}
+
+.name .referencias-personales .p-40 {
+    color: #a5a58d;
+    width: 35%;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    top: 20px;
+    right: 100px;
+    left: 42px;
+    border: grey 2px solid;
+    text-indent: 15px;   
+}
+
+
+.name .referencias-familiares {
+    width: 990px;
+    height: 300px;
+    background-color: #e5e5e5;
+    position: relative;
+    top: 940px;
+    right: -990px;
+    left: 328px;
+}
+
+.name .referencias-familiares .p-41 {
+    color: #03071e;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    bottom: -12px;
+    right: -8px;
+}
+
+.name .referencias-familiares .p-42 {
+    color: #a5a58d;
+    width: 35%;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    top: 20px;
+    right: 100px;
+    left: 42px;
+    border: grey 2px solid;
+    text-indent: 15px;
+}
+
+.name .referencias-familiares .p-43 {
+    color: #a5a58d;
+    width: 35%;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    top: 20px;
+    right: 100px;
+    left: 42px;
+    border: grey 2px solid;
+    text-indent: 15px;
+}
+
+.name .referencias-familiares .p-44 {
+    color: #a5a58d;
+    width: 45%;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    top: 20px;
+    right: 100px;
+    left: 42px;
+    border: grey 2px solid;
+    text-indent: 15px;
+}
+
+.name .referencias-familiares .p-45 {
+    color: #a5a58d;
+    width: 35%;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    top: 20px;
+    right: 100px;
+    left: 42px;
+    border: grey 2px solid;
+    text-indent: 15px;
+}
+
+.name .referencias-familiares .p-46 {
+    color: #a5a58d;
+    width: 45%;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    top: 20px;
+    right: 100px;
+    left: 42px;
+    border: grey 2px solid;
+    text-indent: 15px;
+}
+
+.name .referencias-familiares .p-47 {
+    color: #a5a58d;
+    width: 35%;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    top: 20px;
+    right: 100px;
+    left: 42px;
+    border: grey 2px solid;
+    text-indent: 15px;
+}
+
+.name .aptitudes-actitudes {
+    width: 27%;
+    height: 243px;
+    background-color: #e5e5e5;
+    position: relative;
+    top: -814px;
+    left: -30%;
+}
+
+.name .aptitudes-actitudes .p-48 {
+    color: #03071e;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    bottom: -12px;
+    right: -8px;
+}
+
+.name .aptitudes-actitudes .p-49 {
+    color: #03071e;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    bottom: -12px;
+    right: -8px;
+}
+
+.name .aptitudes-actitudes .p-50 {
+    color: #03071e;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    bottom: -12px;
+    right: -8px;
+}
+
+.name .aptitudes-actitudes .p-51 {
+    color: #03071e;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    bottom: -12px;
+    right: -8px;
+}
+
+.name .aptitudes-actitudes .p-52 {
+    color: #03071e;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    bottom: -12px;
+    right: -8px;
+}
+
+.name .aptitudes-actitudes .p-53 {
+    color: #03071e;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    bottom: -12px;
+    right: -8px;
+}
